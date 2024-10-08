@@ -115,7 +115,7 @@ $conn->close();
         <p>Plaka: <?php echo $car['LicensePlate']; ?></p>
         <?php if ($car['IsAvailable']): ?>
             <form method="POST">
-                <label for="endDate">Bitiş Tarihi:</label>
+                <label for="endDate">Bitiş Tarihi:</label><br>
                 <input type="date" id="endDate" name="endDate" class="textbox" required><br><br>
                 <button class='rent-button' type='submit' name='rent'>Rent</button>
             </form>

@@ -80,7 +80,7 @@ $result = mysqli_query($conn, $query);
         <div class="sidebar">
             <h3>Filtreler</h3>
             
-            <label for="brand">Marka:</label>
+            <label for="brand">Marka:</label><br>
             <input type="text" name="brand" id="brand"><br><br>
             <hr>
             
